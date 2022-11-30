@@ -1,0 +1,40 @@
+* {
+    background-color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.header {
+    display: flex;
+    flex-flow: row;
+
+}
+
+    img{ 
+        width: 150px;
+    }
+    .titulo{
+        text-align: center;
+    }
+.nav-bar {
+    display: flex;
+    flex-direction: row ;
+    padding:  0 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+
+}
+a{
+    padding: 30px;
+}
+.prod{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    justify-content: center;
+}
+.card-img-top{
+    width: 150px;
+}
